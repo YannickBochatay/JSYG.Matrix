@@ -3,7 +3,7 @@ if (typeof require!= "undefined") {
     require.config({
         paths: {
             "jquery": '../bower_components/jquery/dist/jquery',
-            "jsyg": '../bower_components/jsyg/JSYG',
+            "jsyg-wrapper": '../bower_components/jsyg-wrapper/JSYG-wrapper',
             "jsyg-point": '../bower_components/jsyg-point/JSYG.Point',
             "jsyg-vect": '../bower_components/jsyg-vect/JSYG.Vect',
             "jsyg-matrix": '../JSYG.Matrix'
@@ -14,7 +14,7 @@ if (typeof require!= "undefined") {
 
 (function(factory) {
     
-    if (typeof define == 'function' && define.amd) define(["jsyg-matrix","jsyg"],factory);
+    if (typeof define == 'function' && define.amd) define(["jsyg-matrix","jsyg-wrapper"],factory);
     else if (typeof JSYG != "undefined") factory(JSYG.Matrix);
     else factory(Matrix);
     
