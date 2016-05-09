@@ -1,7 +1,7 @@
 ;(function(root,factory) {
     
     if (typeof module == "object" && typeof module.exports == "object" ) module.exports = factory( require("jsyg-vect") );
-    if (typeof define == 'function' && define.amd) define("jsyg-matrix",["jsyg-vect"],factory);
+    else if (typeof define == 'function' && define.amd) define("jsyg-matrix",["jsyg-vect"],factory);
     else {
         
         if (typeof JSYG != "undefined") {
