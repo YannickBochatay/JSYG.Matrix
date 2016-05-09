@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/YannickBochatay/JSYG.Matrix/issues"
   },
-  "homepage": "https://github.com/YannickBochatay/JSYG.Matrix#readme"
+  "homepage": "https://github.com/YannickBochatay/JSYG.Matrix#readme",
+  "dependencies": {
+    "jsyg-vect": "^0.1.6"
+  }
 }
