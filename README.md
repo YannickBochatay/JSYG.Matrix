@@ -5,13 +5,12 @@ matrix constructor for JSYG
 ```shell
 npm install jsyg-matrix
 ```
-You can also install it from bower
 
-### Example with es6
+### Example with webpack
 ```javascript
 import Matrix from "jsyg-matrix"
 
-let mtx = new Matrix()
+const mtx = new Matrix()
 
 console.log( mtx.translate(50,50).rotate(90).inverse().toString() )
 ```

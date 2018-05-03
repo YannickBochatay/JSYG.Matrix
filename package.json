@@ -1,6 +1,6 @@
 {
   "name": "jsyg-matrix",
-  "version": "0.1.7",
+  "version": "1.0.0",
   "description": "Matrix constructor for JSYG",
   "main": "JSYG.Matrix.js",
   "directories": {
@@ -26,6 +26,12 @@
   },
   "homepage": "https://github.com/YannickBochatay/JSYG.Matrix#readme",
   "dependencies": {
-    "jsyg-vect": ">0.0.0"
+    "jsyg-vect": "^1.0.2"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "jsyg-wrapper": "^1.0.0",
+    "qunit": "^2.6.0",
+    "requirejs": "^2.3.5"
   }
 }
