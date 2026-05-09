@@ -2,6 +2,8 @@
 
 matrix constructor for JSYG
 
+## ⚠️ Deprecated. Use [@jsyg/matrix](https://github.com/YannickBochatay/jsyg-monorepo/tree/main/packages/matrix) instead.
+
 ### Installation
 
 ```shell
